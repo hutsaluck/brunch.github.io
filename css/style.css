@@ -1,0 +1,825 @@
+*{
+	margin: 0;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	padding: 5% 10%;
+	background-image: url(../img/main_bg.png);
+	background-size: cover;
+}
+
+.logo{
+	opacity: 0.78;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+header nav>li{
+	list-style: none;
+	display: inline;
+	margin-right: 25px;
+	
+
+	opacity: 0.78;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main_text{
+	margin: 0 auto;
+	margin-top: 15%;
+	text-align: center;
+	padding: 10%;
+	width: 80%;
+
+	background-color: rgba(255, 255, 255, 0.82);
+	clear: both;
+}
+
+.main_text h2{
+	margin-bottom: 1%;
+
+	color: #2c3a42;
+	font-family: Cookie;
+	font-size: 104px;
+	font-weight: 400;
+}
+
+.main_text h1{
+	margin-bottom: 5%;
+
+	color: #ad6c12;
+	font-family: "Raleway";
+	font-size: 77px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.main_text button{
+	border: none;
+	outline: none;
+	width: 267px;
+	height: 60px;
+	background-color: #ffffff;
+
+	color: #26363a;
+	font-family: "Raleway";
+	font-size: 38px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+/* Блок традицій */
+
+.traditional{
+	padding: 5% 10%;
+	background-color: #2a3b40;
+}
+
+.traditional_text{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.traditional h3{
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 29px;
+	font-weight: 700;
+}
+
+.traditional p{
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+/* Блок новинок */
+.newProduct{
+	padding: 5% 10%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.newProduct>div>div *{
+	margin-bottom: 10%;
+}
+
+.round{
+	display: inline-block;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	background-color: #2a3b40;
+}
+
+/* Блок зі стравами */
+
+.dishes{
+	padding: 5% 10%;
+	background-image: url(../img/dishes_bg.png);
+	background-size: cover;
+}
+
+.dishes .col-lg-3{
+	padding: 0;
+	width: 100px;
+}
+
+.dishes .row{
+	margin: 0;
+}
+
+.dishes_block{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.82);
+}
+
+.dishes_block{
+	padding-top: 5%;
+}
+
+.dishes h2{
+	margin-bottom: 0;
+	color: #304751;
+	font-family: Cookie;
+	font-size: 77px;
+	font-weight: 400;
+}
+
+.dishes h3{
+	margin-top: 0;
+	margin-bottom: 5%;
+	color: #ad6c12;
+	font-family: "Raleway";
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#dishes_text{
+	display: flex;
+  align-items: center;
+	justify-content: center;
+	
+	padding: 2%;
+}
+
+.dishes h4{
+	color: #304751;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.dishes_description{
+	color: #304751;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.dishes_prise{
+	color: #304751;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/* Блок кухні */
+
+.cuisine{
+	text-align: center;
+	padding: 5% 22%;
+	background: url(../img/bg_left.png) no-repeat,
+                #d4d8d9 url(../img/bg_right.png) no-repeat 100% 0;
+}
+
+.cuisine h2{
+	color: #2a3b40;
+	font-family: Raleway;
+	font-size: 29px;
+	font-weight: 700;
+}
+
+.cuisine p{
+	margin-top: 3%;
+	margin-bottom: 5%;
+	color: #2a3b40;
+	font-family: Raleway;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+.cuisine_element{
+	margin-top: 5%;
+}
+
+.cuisine span{
+	margin-left: 5%;
+	color: #2a3b40;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+/* Блок з меню */
+.discover{
+	padding-top: 25%;
+	background-image: url(../img/discover_bg.png);
+	background-size: cover;
+}
+
+.discover h2{
+	text-align: center;
+	color: #304751;
+	font-family: Cookie;
+	font-size: 77px;
+	font-weight: 400;
+}
+
+.discover h3{
+	margin-bottom: 5%;
+	text-align: center;
+	color: #ad6c12;
+	font-family: "Raleway";
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.discover_block{
+	padding: 5% 10%;
+	background-color: rgba(255, 255, 255, 0.82);
+}
+
+.discover h4{
+	color: #304751;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.discover p{
+	color: #304751;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.discover span{
+	color: #304751;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.discover img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+
+.discover_block>.row>div{
+	margin-bottom: 5%;
+}
+
+/* Блок фотографія страв */
+
+.coocking{
+	height: 890px;
+	width: 100%;
+	background-image: url(../img/coocking_bg.png);
+	background-size: cover;
+}
+
+/* Блок з покупкою книги */
+
+.book{
+	padding: 5% 10%;
+	background-color: #2a3b40;
+	text-align: center;
+}
+
+.book h2{
+	margin-bottom: 5%;
+
+	color: #ffffff;
+	font-family: Cookie;
+	font-size: 77px;
+	font-weight: 400;
+}
+
+.book p{
+	text-align: left;
+	margin-left: 15%;
+
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.book input{
+	background:none;
+	outline: none;
+	width: 237px;
+	height: 32px;
+	border-radius: 8px;
+	border: 2px solid #ffffff;
+	margin-bottom: 10%;
+	padding: 2%;
+
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.book input::placeholder{
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.book input[type=submit]{
+	margin: 0 auto;
+	margin-top: 2%; 
+	padding: 0;
+
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.book select{
+	background:none;
+	outline: none;
+	width: 237px;
+	height: 32px;
+	border-radius: 8px;
+	border: 2px solid #ffffff;
+	margin-bottom: 10%;
+
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.book select>option{
+	background: #2a3b40;
+	outline: #2a3b40;
+	width: 237px;
+	height: 32px;
+	border: none;
+	margin-bottom: 10%;
+
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+/* Блок зі стравами */
+.coocking_photo{
+	height: 890px;
+	width: 100%;
+	background-image: url(../img/coocking_photo_bg.png);
+	background-size: cover;
+}
+
+/* Блок з новим меню */
+.newMenu{
+	padding: 5% 10%;
+	background-color: #d4d8d9;
+}
+
+.newMenu img{
+	height: auto;
+}
+
+.newMenu h2{
+	text-align: center;
+	color: #304751;
+	font-family: Cookie;
+	font-size: 77px;
+	font-weight: 400;
+}
+
+.newMenu h3{
+	text-align: center;
+	color: #ad6c12;
+	font-family: "Raleway";
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 5%;
+}
+
+.newMenu .date{
+	color: #555555;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 33px;
+	letter-spacing: 1.05px;
+}
+
+.newMenu h4{
+	color: #4f4e4e;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.newMenu .description{
+	color: #4f4e4e;
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.newMenu a{
+	text-decoration: none;
+	color: #555555;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 33px;
+	text-transform: uppercase;
+	letter-spacing: 1.05px;
+}
+
+.newMenu a:after{
+	content: '';
+	display: block;
+	width: 88px;
+	height: 7px;
+	background-color: #ff992b;
+}
+
+.newMenu a:hover:after{
+	content: '';
+	display: block;
+	width: 88px;
+	height: 7px;
+	background-color: #ad6c12;
+}
+
+.newMenu_text{
+	background-color: #ffffff;
+	padding: 5%;
+}
+
+.newMenu .row>div{
+	margin-bottom: 5%;
+}
+
+/* Блок відгуків */
+
+.testimonial{
+	padding: 5% 10%;
+	background-color: #2a3b40;
+	text-align: center;	
+}
+
+.testimonial img{
+	width: 25px;
+	height: 30px;
+}
+
+.testimonial .social img{
+	width: 45px;
+	height: 45px;
+	margin-right: 2%;
+}
+
+.testimonial p{
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 33.33px;
+}
+
+.testimonial h4{
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 35px;
+}
+
+.testimonial *:not(.social){
+	margin-bottom: 2%;	
+}
+
+/* Блок футера */
+footer{
+	padding: 5% 10%;
+	background-color: #d4d8d9;
+}
+
+footer h2{
+	margin-bottom: 10%;
+	color: #2d2f2a;
+	font-family: Raleway;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+
+footer h4{
+	color: #2d2f2a;
+	font-family: Raleway;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 29.17px;
+}
+
+footer h3{
+	margin-bottom: 25%;
+	color: #2d2f2a;
+	font-family: Raleway;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+
+footer p{
+	color: #2d2f2a;
+	font-family: Raleway;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 35px;
+}
+
+/* Зменшення екрану */
+
+/* Головний екран */
+
+@media only screen and (min-width: 1347px){
+	header .logo{
+		font-size: 30px;
+	}
+	
+	header nav>li{
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 1014px) and (max-width: 1347px){
+	.main .logo{
+		font-size: 25px;
+	}
+	
+	.main nav>li{
+		font-size: 25px;
+	}
+
+	.main_text h1{
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 1013px){
+	.main .logo{
+		font-size: 20px;
+	}
+	
+	.main nav>li{
+		font-size: 20px;
+	}
+
+	.main_text h1{
+		font-size: 60px;
+	}
+
+	.main_text h2{
+		font-size: 80px;
+	}
+
+	.main_text button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+	}
+}
+
+@media (min-width: 658px) and (max-width: 888px){
+	.main_text h1{
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 526px) and (max-width: 657px){
+	.main_text h1{
+		font-size: 40px;
+	}
+
+	.main_text h2{
+		font-size: 70px;
+	}
+
+	.main_text button {
+    width: 150px;
+    height: 40px;
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 395px) and (max-width: 525px){
+	.main_text h1{
+		font-size: 30px;
+	}
+
+	.main_text h2{
+		font-size: 50px;
+	}
+
+	.main_text button {
+    width: 140px;
+    height: 50px;
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 394px){
+	.main_text h1{
+		font-size: 20px;
+	}
+
+	.main_text h2{
+		font-size: 40px;
+	}
+
+	.main_text button {
+    width: 120px;
+    height: 25px;
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 856px){
+	header {
+		padding: 5% 5%;
+	}
+}
+header nav li.icon{
+	display: none;
+}
+
+@media	screen and (max-width: 762px){
+	header nav li{
+		display: none;
+	}
+
+	header nav li.icon{
+		float: right;
+		margin-top: -17px;
+		display: block;
+		color: #fff;
+		font-size: 25px;
+	}
+
+	nav{
+		position: relative;	
+		top: 10px;
+		right: -25px;
+	}	
+
+	header nav.responsive{
+		position: relative;
+		top: 30px;
+		right: 0;
+	}
+
+	header nav.responsive{
+		height: auto;
+		background-color: rgba(0, 0, 0, 0.9);
+		padding-right: 10px;
+	}
+
+	.nav_header{
+		position: fixed;
+		right: 0;
+	}
+	header .row{
+		background-color: rgba(0, 0, 0, 0.3);
+		margin-top: 0;
+		width: 100%;
+		position: fixed;
+		z-index: 9999999;
+	}
+
+	header .logo{
+		margin-top: 0;
+	}
+	
+
+	header nav.responsive li.icon{
+		position: absolute;
+		top: -20px;
+		right: 0;
+	}
+
+	header nav.responsive li{
+		float: none;
+		display: block;
+		text-align: right;
+		margin-bottom: 2%;
+		margin-right: 0;
+	}
+}
+
+/* Блок кухні */
+
+@media only screen and (max-width: 880px){
+	.cuisine{
+		text-align: center;
+		padding: 5% 10%;
+		background: #d4d8d9;
+	}
+}
+
+
+/* Блок книжки */
+
+@media only screen and (max-width: 575px){
+	.book p{
+		margin-left: 0;
+	}
+	.book{
+		text-align: left;
+	}
+
+	.book h2{
+		text-align: center;
+	}
+
+	.book p{
+		margin-left: 5%;
+	}
+	
+	.book input[type=submit]{
+		margin: 15px;
+	}
+}
+
+/* Блок відгуків */
+
+@media only screen and (max-width: 337px){
+	.testimonial .social img{
+		width: 35px;
+		height: 35px;
+	}
+}
+
+/* Блок футера */
+
+@media (min-width: 576px) and (max-width: 693px){
+	footer p{
+		font-size: 15px;
+		line-height: 25px;
+	}
+
+	footer h3{
+		font-size: 15px;
+		line-height: 25px;
+	}
+}
+
+
+@media only screen and (max-width: 575px){
+	footer{
+		text-align: center;
+	}
+	footer h3{
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+}
