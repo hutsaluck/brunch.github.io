@@ -80,6 +80,10 @@ header nav>li{
 	text-transform: uppercase;
 }
 
+.main_text button:hover{
+	box-shadow: 10px 10px 67px -16px rgba(0,0,0,0.75);
+}
+
 /* Блок традицій */
 
 .traditional{
